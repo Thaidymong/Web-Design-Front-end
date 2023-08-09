@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: #0277B7;
+    width: 100%;
+    height: 100vh;
+}
+.bars{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: #0277B7;
+}
+.head{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.head i{
+    font-size: 1.2rem;
+}
+.head .menu{
+    display: flex;
+    padding-top: 24px;
+    color: #fff;
+}
+.logo{
+    width: 30%;height: 100%;
+}
+.menu-bars{
+    width: 60%;height: 100%;
+}
+.menu{
+    width: 10%; height: 100%;
+}
+.menu .bor{
+    display: none;
+    /* border-bottom: 1px solid white;
+    border-radius: 4px; */
+}
+.head .logo img{
+    width: 45%;
+    padding-top: 15px;
+}
+.menu-bars ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6px;
+} 
+.menu-bars ul li {
+    padding: 20px;
+    list-style: none;
+}
+.menu-bars ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.menu-bars ul li .btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 13px;
+}
+.menu-bars ul li a:hover{
+    color: gray;
+}
+.title{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.detail{
+    height: 100%;
+    width: 50%;
+}
+.detail {
+    padding-top: 25%;
+}
+.detail h1{
+    font-size: 2.7rem;
+    color: white;
+    line-height: 70px;
+}
+.detail p{
+    font-size: 1.3rem;
+    color: white;
+    line-height: 30px;
+}
+.detail .arrow{
+    color: white;
+    border: 1px solid white;
+    padding: 15px 15px;
+    border-radius: 25px;
+    line-height: 100px;
+    margin-left: 100px;
+}
+.detail  a{
+    font-size: .8rem;
+    text-decoration: none;
+}
+.detail1{
+    margin-top: 100;
+    width: 50%;height: 100%;
+}
+.detail1 img{
+    width:800px;
+    height: 600px;
+}
+.home{
+    width: 100%;
+    height: 150vh;
+}
+.row{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.row1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+.row2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+}
+.main1{
+    width: 50%;height: 100%;
+    text-align: center;
+}
+.main1 h2, a{
+    color:  #0277B7;
+    padding-top: 100px;
+}
+.main1 p{
+    padding-top: 30px;
+}
+.main{
+    width: 50%;height: 100%;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+}
+.row1 .right{
+    text-align: center;
+}
+.row1 .left, .right {
+    width: 50%;
+    height: 100%;
+}
+.row1 .left img{
+    height: 100%;
+}
+.row1 .right h2{
+    color:  #0277B7;
+    padding-top: 100px;
+}
+.row1 .right p{
+    padding-top: 30px;
+}
+.row2 .left , .right{
+    width: 50%;
+    height: 100%;
+}
+.row2 .left h2{
+    color:  #0277B7;
+    padding-top: 140px;
+}
+.row2 .left p{
+    padding-top: 30px;
+}
+.row2 .right img{
+    height: 100%;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #0277B7;
+}
+.footer .foot-main{
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer .foot-main .contact{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 30px;
+    color: white;
+}
+.footer .foot-main .contact p:hover{
+    transform: scaleX(1.2);
+}
+.foot-logo{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.foot-logo img{
+    width: 15%;
+    padding-top: 10px;
+} 
+.foot-logo p{
+    color: white;
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px){
+    .row , .row1 , .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    .main1, .main{
+        width: 100%;
+    }
+    .main1 h2, a{
+        color:  #0277B7;
+        padding-top: 50px;
+    }
+    .main1 p{
+        padding-bottom: 30px;
+    }
+    .row1 .left , .row1 .right{
+        width: 100%;
+    }
+    .row1 .left {
+        padding-top: 100px;
+        padding-left: 27%;
+    }
+    .row2 .left , .row2 .right{
+        width: 100%;
+    }
+    .row2 .left {
+        padding-top: 150px;
+    }
+    .row2 .right {
+        padding-top: 50px;
+    }
+}
+
+/* confused */
+.confused{
+    width: 100%;
+    height: 100vh;
+   background-color: aliceblue;
+}
+.confused .space{
+    width: 100%;
+    height: 5%;
+}
+.confused .row{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.confused .row {
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    width: 100%;
+    height: 10%;
+}
+.sub{
+    text-align: center;
+    color: #0277B7;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.class{
+    width: 100%;
+    height: 90%;display: flex;
+}
+.class .person{
+    width: 50%;
+    height: 100%;
+    margin-top: 61px;
+    text-align: center;
+}
+.class .person img{
+   height: 90%;
+}
+.class .text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 100px;
+}
+.class .text h2{
+    line-height: 70px;
+}
+@media screen and (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu-bars{
+        display: none;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .logo img{
+        width:100%;
+        padding-top: 15px;
+    }
+    .menu{
+        width: 30%;
+        padding-top: 10;
+    }
+    .menu .bor{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail, .detail1{
+        width: 100%;
+    }
+    .detail{
+        text-align: center;
+    }
+    .detail1{
+        margin-top: 5px;
+    }
+    .detail1 img{
+        width:700px;
+        height: 350px;
+        padding-right: 80%;
+    }
+    .confused{
+        margin-top: 400;
+    }
+    .class{
+        flex-flow: column;
+    }
+    .class .person , .class .text{
+        width: 100%;
+    }
+    .class .person{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .class .text{
+        text-align: center;
+        line-height: 20px;
+        margin-top: 1px;
+    }
+    .class .text h2{
+        line-height: 20px;
+    }
+    .footer{
+        display: none;
+    }
+}
